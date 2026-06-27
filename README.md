@@ -1,11 +1,11 @@
-# 🧬 PipelineIQ
+# PipelineIQ
 **Automated Machine Learning Benchmark and Tracking Dashboard**
 
 PipelineIQ is a lightweight, fully automated end-to-end Machine Learning pipeline built for rapid prototyping. Drop in any tabular dataset, and the system will automatically handle data profiling, dynamic preprocessing, model training, hyperparameter tuning, and advanced model explainability—all orchestrated through a sleek Streamlit dashboard.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Automated Data Profiling**: Instantly detects feature types, missing values, skewness, and class imbalance.
 - **Dynamic Preprocessing**: Builds leakage-free Scikit-Learn pipelines that automatically impute, scale, encode, and log-transform data based on the profile.
@@ -16,14 +16,14 @@ PipelineIQ is a lightweight, fully automated end-to-end Machine Learning pipelin
 - **LLM AI Summary**: Integrates with the **Groq API** to read the SHAP results and generate a jargon-free, stakeholder-ready plain English summary.
 - **One-Click Export**: Bundles the fitted preprocessor and tuned model into a single `.pkl` file for instant deployment.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Core**: Python, Scikit-Learn, Pandas, NumPy
 - **MLOps**: MLflow, Optuna
 - **Explainability**: SHAP
 - **UI & LLM**: Streamlit, Groq API (Llama 3.1)
 
-## 💻 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 Make sure you have conda or an active Python environment.
@@ -43,7 +43,7 @@ streamlit run app.py
 ```
 Upload any CSV (e.g., Titanic, Breast Cancer, House Prices) and hit **Run PipelineIQ**.
 
-## 📁 Directory Structure
+## Directory Structure
 ```
 PipelineIQ/
 ├── app.py                   # Main Streamlit dashboard

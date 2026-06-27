@@ -89,7 +89,7 @@ st.markdown("""
 st.title("PipelineIQ")
 st.markdown("### Automated end-to-end Machine Learning benchmark and tracking dashboard.")
 
-st.sidebar.markdown("### 🤖 Groq AI Summary")
+st.sidebar.markdown("### Groq AI Summary")
 
 # Pull the Groq API key from .env locally or from Streamlit secrets in prod
 groq_api_key = os.environ.get("GROQ_API_KEY")
@@ -197,7 +197,7 @@ if uploaded_file is not None:
                 
         if groq_api_key and Groq is not None:
             st.markdown("---")
-            st.subheader("💡 AI Conclusion (Powered by Groq)")
+            st.subheader("AI Conclusion (Powered by Groq)")
             with st.spinner("Analyzing results with Llama 3..."):
                 try:
                     client = Groq(api_key=groq_api_key)
