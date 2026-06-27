@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated artifacts
+outputs/
+mlruns/
+mlflow.db
+*.pkl
+*.model
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints
