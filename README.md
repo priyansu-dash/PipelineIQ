@@ -1,6 +1,8 @@
 # PipelineIQ
 **Automated Machine Learning Benchmark and Tracking Dashboard**
 
+🟢 **Live Demo**: [https://pipelineiq-7fersabiucvfgyxadbdwgl.streamlit.app](https://pipelineiq-7fersabiucvfgyxadbdwgl.streamlit.app)
+
 PipelineIQ is a lightweight, fully automated end-to-end Machine Learning pipeline built for rapid prototyping. Drop in any tabular dataset, and the system will automatically handle data profiling, dynamic preprocessing, model training, hyperparameter tuning, and advanced model explainability—all orchestrated through a sleek Streamlit dashboard.
 
 ---
